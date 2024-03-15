@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hugo</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- libreria AOS Animate On Scroll Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- libreria animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>  
+    <!-- comienzo del proyecto 15/02/2023 1:30 PM -->
+    <header class="header">
+        <a href="#" class="header__company-name link">Panaderia Lara</a>
+
+        <div class="header__icon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+       <div class="header__list">
+            <ul class="list">
+                <li class="list__item"><a href="#home" class="link link--main-menu">Home</a></li>
+                <li class="list__item"><a href="#about" class="link link--main-menu">About</a></li>
+                <li class="list__item"><a href="#services" class="link link--main-menu">Services</a></li>
+                <li class="list__item"><a href="#menu" class="link link--main-menu">Menu</a></li>
+                <li class="list__item"><a href="#reservation" class="link link--main-menu">Reservation</a></li>
+                <li class="list__item"><a href="#" class="link link--main-menu"><i class="fa-solid fa-cart-shopping list__icon"></i>item</a></li>
+            </ul>
+       </div>
+    </header>
+
+    <main>
+
+        <div class="slider" id="home">
+            <picture class="slider__content">
+                <img src="https://cdn.pixabay.com/photo/2016/11/22/18/52/cake-1850011_1280.jpg" alt="" class="img slider__img">
+            </picture>
+            <div class="slider__content animate__animated animate__bounceIn">
+                <h1 class="slider__title">Cross</h1>
+                <p class="slider__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, 
+                    vero nisi? Officiis illo beatae rem minus aperiam hic corporis at
+                    quod distinctio accusantium, doloremque, commodi ullam adipisci amet
+                </p>
+            </div>
+
+        </div>
+
+        <section class="section" id="about">
+            <div class="section__title-container">
+                <h2 class="about__title-primary section__title">Sobre nosotros</h2>
+            </div>
+
+            <div class="about">
+                <div class="about__container">
+                    <p class="about__speciality">ESPECIALIDAD DE LA CASA</p>
+                    <h2 class="about__subtitle">DESCUBRE NUESTRAS VARIEDADES</h2>
+                    <p class="about__description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi. 
+                        
+                    </p> 
+                   <div class="about__link-container">
+                     <a href="#" class="link about__link">Descubrir Menú</a>
+                   </div>
+                </div>
+    
+                <div class="about__container">
+                    <picture class="about__picture">
+                        <img src="https://plus.unsplash.com/premium_photo-1672916807214-3e354dcfbf75?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="img about__img">
+                    </picture>
+                    <h3 class="about__title">NUESTRA HISTORIA </h3>
+                    <p data-aos="fade-up" class="about__description animate__animated animate__delay-5s">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, 
+                        vero nisi? Officiis illo beatae rem minus aperiam hic corporis at
+                        quod distinctio accusantium, doloremque, commodi ullam adipisci amet
+                    </p>
+                    <div class="about__line"></div>
+                </div>
+    
+                <div class="about__container">
+                    <picture class="about__picture">
+                        <img src="https://cdn.pixabay.com/photo/2016/07/12/19/05/pancakes-1512834_1280.jpg" alt="" class="img about__img">
+                    </picture>
+                    <h3 class="about__title">SOBRE NUESTROS MAESTROS CHEFS</h3>
+                    <p data-aos="fade-up" class="about__description animate__animated animate__delay-5s">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, 
+                        vero nisi? Officiis illo beatae rem minus aperiam hic corporis at
+                        quod distinctio accusantium, doloremque, commodi ullam adipisci amet
+                    </p>
+                    <div class="about__line" id="services"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="galery">
+
+            <div class="galery__container" data-aos="zoom-in">
+                <picture lang="galery__picture">
+                    <img src="https://cdn.pixabay.com/photo/2016/03/26/18/23/bread-1281053_1280.jpg" alt="pan de agua" class="img galery__img">
+                </picture>
+            </div>
+
+            <div class="galery__container" data-aos="zoom-in">
+                <picture lang="galery__picture">
+                    <img src="https://cdn.pixabay.com/photo/2014/07/22/09/59/bread-399286_1280.jpg" alt="pan de agua" class="img galery__img">
+                </picture>
+                <div class="galery__information">
+                    <h2>Compra nuestras</h2>
+                    <p class="galery__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <a href="#" class="link galery__link">Reservar ahora</a>
+                </div>
+            </div>
+
+            <div class="galery__container" data-aos="zoom-in">
+                <picture lang="galery__picture">
+                    <img src="https://cdn.pixabay.com/photo/2022/09/10/17/27/loaf-7445434_960_720.jpg" alt="pan de agua" class="img galery__img">
+                </picture>
+            </div>
+
+        </section>
+
+        <section class="section" >
+            <div class="section__title-container">
+                <h2 class="section__title">Especialidades</h2>
+            </div>
+
+            <div class="specialties">
+                <div class="specialties__container">
+                    <div class="card">
+                        <picture class="card__picture">
+                            <img src="https://images.unsplash.com/photo-1612203985729-70726954388c?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Postre de chocolate" class="img card__img">
+                        </picture>
+                        <div class="card__content">
+                            <h2 class="card__title">Pastel de Chocolate</h2>
+                            <p class="card__description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, 
+                                vero nisi? Officiis illo beatae rem minus aperiam hic corporis at
+                            </p>
+                            <span class="card__price">
+                                $1.50
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="specialties__container">
+                    <div class="card">
+                        <picture class="card__picture">
+                            <img src="https://plus.unsplash.com/premium_photo-1669680785558-c189b49aed4e?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="cheese de morata" class="img card__img">
+                        </picture>
+                        <div class="card__content">
+                            <h2 class="card__title">Cheese</h2>
+                            <p class="card__description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, 
+                                vero nisi? Officiis illo beatae rem minus aperiam hic corporis at
+                            </p>
+                            <span class="card__price">
+                                $10.98
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="specialties__container">
+                    <div class="card">
+                        <picture class="card__picture">
+                            <img src="https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Postre de chocolate" class="img card__img">
+                        </picture>
+                        <div class="card__content">
+                            <h2 class="card__title">Crosh Bill</h2>
+                            <p class="card__description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, 
+                                vero nisi? Officiis illo beatae rem minus aperiam hic corporis at
+                            </p>
+                            <span class="card__price">
+                                $1.50
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="menu">
+            <div class="section__title-container">
+                <h2 class="section__title"> EL MENÚ</h2>
+            </div>
+
+           <div class="menu">
+                <div class="menu__container">
+                    <div class="card card--menu">
+                        <picture class="card__picture">
+                            <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Postre de chocolate" class="img card__img">
+                        </picture>
+                        <div class="card__content card__content--menu">
+                            <h2 class="card__title">Crosh Bill</h2>
+                            <span class="card__price-menu">
+                                $1.50 - Unidad
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="menu__container">
+                    <div class="card card--menu">
+                        <picture class="card__picture">
+                            <img src="https://images.unsplash.com/photo-1598233846284-b0062fb101bd?q=80&w=1450&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Postre de chocolate" class="img card__img">
+                        </picture>
+                        <div class="card__content card__content--menu">
+                            <h2 class="card__title">Sool Steck</h2>
+                            <span class="card__price-menu">
+                                $2.15 - Unidad
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu__container">
+                    <div class="card card--menu">
+                        <picture class="card__picture">
+                            <img src="https://plus.unsplash.com/premium_photo-1663853293357-41695a0713a0?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Postre de chocolate" class="img card__img">
+                        </picture>
+                        <div class="card__content card__content--menu">
+                            <h2 class="card__title">Slimber</h2>
+                            <span class="card__price-menu">
+                                $3.25 - Unidad
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu__container">
+                    <div class="card card--menu">
+                        <picture class="card__picture">
+                            <img src="https://images.unsplash.com/photo-1604413191066-4dd20bedf486?q=80&w=1440&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Postre de chocolate" class="img card__img">
+                        </picture>
+                        <div class="card__content card__content--menu" >
+                            <h2 class="card__title">Lime Gun</h2>
+                            <span class="card__price-menu">
+                                $12.50 - Unidad
+                            </span>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </section>
+
+        <section class="section">
+            <div class="section__title-container">
+                <h2 class="section__title"> Reservaciones</h2>
+            </div>
+
+            <div class="reservations" id="reservation">
+                <p class="reservations__container">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Odit ducimus consequatur delectus, corporis omnis perspiciatis 
+                    similique laboriosam ratione explicabo.
+                </p>
+
+                <div class="reservations__container">
+                    <form action="#" class="form">
+                        <div class="form__wrapper">
+                            <input type="text" name="name" placeholder="" class="form__input" style="border: none;">
+                            <label for="name" class="form__label" >Nombre</label>
+
+                            <i class="fa-solid fa-user form__icon"></i>
+                        </div>
+                        <div class="form__wrapper">
+                            <input type="date" name="date_reservation" class="form__input">
+                        </div>
+                        <div class="form__wrapper">
+                            <select name="hour" id="" class="form__select select">
+                                <option value="7:00 AM" class="select__item">7:00 AM</option>
+                                <option value="8:00 AM" class="select__item">8:00 AM</option>
+                                <option value="8:30 AM" class="select__item">8:30 AM</option>
+                                <option value="10:00 AM" class="select__item">10:00 AM</option>
+                                <option value="11:10 AM" class="select__item">11:10 AM</option>
+                            </select>
+                        </div>
+                        <div class="form__wrapper">
+                            <select name="hour" id="" class="form__select select">
+                                <option value="persona 1" class="select__item">Persona 1</option>
+                                <option value="persona 2" class="select__item">Persona 2</option>
+                                <option value="persona 3" class="select__item">Persona 3</option>
+                                <option value="persona 4" class="select__item">Persona 4</option>
+                                <option value="persona 5" class="select__item">Persona 5</option>
+                            </select>
+                        </div>
+                        <div class="form__wrapper">
+                            <input type="button" value="Enviar Mensaje" class="form__button">
+                        </div>
+                    </form>
+                </div> 
+            </div> 
+        </section>
+
+        <div class="banner"></div>
+
+        <section class="section">
+            <div class="section__title-container">
+                <h2 class="section__title">NUESTRO SERVICIO</h2>
+            </div>
+
+            <div class="reservations">
+                <p class="reservations__container">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Odit ducimus consequatur delectus, corporis omnis perspiciatis 
+                    similique laboriosam ratione explicabo.
+                </p>
+
+                <div class="service">
+                    <div class="card-icon center-content">
+                        <div class="card-icon__container center-content">
+                            <i class="fa-solid fa-cookie card-icon__icon"></i>
+                        </div>
+                        <div class="card-icon__container">
+                            <h2 class="card-icon__title">Postres</h2>
+                        </div>
+                       <div class="card-icon__container">
+                            <p class="card-icon__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Odit ducimus consequatur delectus,
+                            </p>
+                       </div>
+    
+                       <div class="card-icon__line"></div>
+                    </div>
+    
+                    <div class="card-icon center-content">
+                        <div class="card-icon__container center-content">
+                            <i class="fa-solid fa-umbrella-beach card-icon__icon"></i>
+                        </div>
+                        <div class="card-icon__container">
+                            <h2 class="card-icon__title">Bebidas Frías</h2>
+                        </div>
+                       <div class="card-icon__container">
+                            <p class="card-icon__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Odit ducimus consequatur delectus,
+                            </p>
+                       </div>
+                       <div class="card-icon__line"></div>
+                    </div>
+    
+                    <div class="card-icon center-content">
+                        <div class="card-icon__container center-content">
+                            <i class="fa-solid fa-bowl-food card-icon__icon"></i>
+                        </div>
+                        <div class="card-icon__container">
+                            <h2 class="card-icon__title">ALMUERZO</h2>
+                        </div>
+                       <div class="card-icon__container">
+                            <p class="card-icon__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Odit ducimus consequatur delectus,
+                            </p>
+                       </div>
+                       <div class="card-icon__line"></div>
+                    </div>
+                    
+                    <div class="card-icon center-content">
+                        <div class="card-icon__container center-content">
+                            <i class="fa-solid fa-martini-glass-empty card-icon__icon"></i>
+                        </div>
+                        <div class="card-icon__container">
+                            <h2 class="card-icon__title">Más</h2>
+                        </div>
+                       <div class="card-icon__container">
+                            <p class="card-icon__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Odit ducimus consequatur delectus,
+                            </p>
+                       </div>
+                       <div class="card-icon__line"></div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__networks center-content">
+                <span class="footer__social">
+                   <a href="#" class="link link--social">
+                        <i class="fa-regular fa-envelope footer__icon"></i>
+                   </a>
+                </span>
+                <span class="footer__social">
+                    <a href="#" class="link link--social">
+                        <i class="fa-brands fa-github footer__icon"></i>
+                    </a>
+                </span>
+                <span class="footer__social">
+                    <a href="#" class="link link--social">
+                        <i class="fa-brands fa-linkedin footer__icon"></i>
+                    </a>
+                </span>
+                <span class="footer__social">
+                    <a href="#" class="link link--social">
+                        <i class="fa-solid fa-globe footer__icon"></i>
+                    </a>
+                </span>
+
+            </div>
+
+            <div class="footer__author">
+                Hugo Antillón - 2024
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <script src="js/main.js"></script>
+</body>
+</html>
